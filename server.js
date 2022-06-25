@@ -3,7 +3,6 @@ const { Pool } = require("pg");
 const cors = require("cors");
 const app = express();
 const bodyParser = require("body-parser");
-const { query } = require("express");
 app.use(bodyParser.json());
 const PORT = process.env.PORT || 5000;
 app.use(cors());
